@@ -13,10 +13,3 @@ dist/
 .env.production.local
 
 .eslintcache
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-
-src/vite-env.d.ts

@@ -1,5 +1,3 @@
-import "./App.css";
-
 import React, { useEffect, useState } from "react";
 
 function App() {
@@ -10,9 +8,11 @@ function App() {
   }, [count]);
 
   return (
-    <div className="App">
-      <button onClick={() => setCount((n) => n + 1)}>+1</button>
-      {count}
+    <div className="text-4xl">
+      <div>
+        <button onClick={() => setCount((n) => n + 1)}>+1</button>
+      </div>
+      <div>count: {count}</div>
     </div>
   );
 }
